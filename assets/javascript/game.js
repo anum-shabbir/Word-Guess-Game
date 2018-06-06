@@ -1,4 +1,4 @@
-var countryList = ["canada", "pakistan", "italy"];
+var countryList = ["canada", "pakistan", "italy" ,"france", "germany", "mexico", "egypt", "argentina", "spain", "portugal", "china", "japan", "chile", "sudan", "brazil", "india", "libya"];
 
 var total_guess = 9;
 var user_guess = [];
