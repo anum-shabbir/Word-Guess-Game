@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman!</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img id="title-image" src="assets/images/game.jpg" alt="Hangman Title Image" />
+        <div class="row">
+            <div class="col-md-6 game-column">
+                <h2 id="win_msg"> Congrats! You won</h2>
+                <h2 id="lose_msg"> Sorry! You lost</h2>
+				<h2 id="play_again"><br>Press Any Key to Play Again!</h2>
+
+            </div>
+            <div class="col-md-6 game-column">
+                <h2>Press A-Z to Guess The Country</h2>
+                <h4>Wins</h4>
+                <h5 id="totalWins"></h5>
+                <h4>Current Word</h4>
+                <h3 id="currentWord"></h3>
+                <h3>Guesses Remaining</h4>
+                <h6 id="remainingGuesses"></h6>
+                <h4>Letters Guessed</h4>
+				<h3 id="guessedLetters"></h3>
+            </div>
+        </div>
+    </div>
+    <script>
+        resetGame();
+        updateDisplay();
+    </script>
+
+</body>
+
+</html>

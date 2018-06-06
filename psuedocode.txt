@@ -1,0 +1,42 @@
+1. Array for words to guess (fixed list)
+2. array for word selected to guess
+3. array for empty word to display (wth dashes)
+4. Each key input from user
+5. # of wins
+6. # of tries
+7. letters already guessed
+
+
+When game starts: 
+array for word selected to guess: 1 random word selected
+array for empty word to display (wth dashes): dashes displayed = letters in word selected
+each key input from user: NA
+# of wins: 0
+# of tries: maximum (9)
+letters already guessed: empty
+
+when user presses a key: 
+A - check that the key entered is a letter and not any symbol
+B - check if entered letter is not a character in word selected to guess 
+      then display letter in letters already guessed 
+         and minus # of tries
+    else if entered letter is a character in word selected to guess 
+      then display letter in letters already guessed 
+         and minus # of tries 
+         and display letter in current word (all indices)
+         and remove the dash from that position (all indices)
+C - check if entered letter is the last character for the word selected to guess
+      then game over
+        and win ++ 
+	and show win message
+	and game reset
+    else if # of tries is zero
+      then game finish
+      and show lost message
+      and game reset
+
+
+
+
+
+

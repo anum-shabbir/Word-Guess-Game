@@ -1,0 +1,38 @@
+body {
+    background-color:black;
+    padding-top: 20px;
+    font-family: Courier New, Courier, monospace;
+	color: white;
+	background: url('../images/background.jpg') no-repeat;
+    background-size: cover;
+}
+.container { 
+    text-align: center;
+    
+}
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+	background-color: rgba(101,155,242,.2);
+	line-height: 1.4;
+}
+#title-image{ 
+    display: block;
+    margin: auto;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+
+.game-column {
+	padding-top: 20px;
+	padding-bottom: 20px;
+    border: 3px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+	background-color:black;
+	opacity: 0.8;
+}
